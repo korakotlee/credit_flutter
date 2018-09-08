@@ -1,6 +1,6 @@
 # flutter_credit
 
-A new Flutter project.
+Learning https://grokonez.com/android/flutter-sqlite-example-listview-crud-operations-sqflite-plugin
 
 ## Getting Started
 
