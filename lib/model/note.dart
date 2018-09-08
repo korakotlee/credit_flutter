@@ -1,11 +1,11 @@
-class Card {
+class Note {
   int _id;
   String _title;
   String _description;
 
-  Card(this._title, this._description);
+  Note(this._title, this._description);
 
-  Card.map(dynamic obj) {
+  Note.map(dynamic obj) {
     this._id = obj['id'];
     this._title = obj['title'];
     this._description = obj['description'];
@@ -26,7 +26,7 @@ class Card {
     return map;
   }
 
-  Card.fromMap(Map<String, dynamic> map) {
+  Note.fromMap(Map<String, dynamic> map) {
     this._id = map['id'];
     this._title = map['title'];
     this._description = map['description'];
